@@ -1,0 +1,52 @@
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color:antiquewhite;
+}
+#banner{
+	background-color: goldenrod; 
+	border-radius: 5px;
+	position: relative;
+	text-align: center;
+	
+}
+
+#fundo{
+    background-color:darkgoldenrod;
+    border-radius: 5px;
+    position: relative;
+}
+#titulo{
+    text-align: left;
+    position: relative;
+    margin-left: 350px;
+    margin-right: auto;
+}
+#pessoa{
+    text-align: left;
+    position: relative;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#contato{
+    text-align: left;
+    position: relative;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+#endereço{
+    text-align: left;
+    position: relative;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#final{
+    text-align: left;
+    position: relative;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-right: 200px;
+}

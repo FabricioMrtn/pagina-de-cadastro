@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente - Mercado Novolar</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <form action="/site-novolar/cadastro" method="post">
+        <div id="banner">
+            <img class="image" src="logo-novolar-sem-fundo.png"
+            style="background-color: goldenrod; border-radius: 5px; text-align: center;
+            padding-left: 45.5%;padding-right: 45.5%; margin-left: 0.8%; margin-right: 0.8%;">
+        </div>
+        <div id="fundo">
+            <div id="titulo">
+                <h1>CADASTRO DE CLIENTE</h1>
+            </div>
+            <div id="pessoa">
+                <h3>INFORMAÇÕES PESSOAIS</h3>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" size="15"
+                    style="margin: 5px; margin-right: 10px; border-radius: 5px; font-size: 14pt;">
+                <label for="sobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="sobrenome" size="26"
+                    style="margin: 5px; border-radius: 5px; font-size: 14pt;">
+                <br>
+                <label for="cpf">CPF: </label>
+                <input type="text" name="cpf" id="cpf" size="22.5"
+                    style="margin-left: 22px; margin-right: 11px; margin-top: 10px; border-radius: 5px; font-size: 14pt;">
+                <label for="nascimento">Data de Nascimento: </label>
+                <input type="date" name="nascimento" id="nascimento"
+                    style="margin: 5px; border-radius: 5px; font-size: 14pt">
+            </div>
+            <div id="contato">
+                <h3>CONTATO</h3>
+                <label for="celular">Tel. Celular: </label>
+                <input type="text" name="Tel_celular" id="celular"
+                    style="margin: 5px; margin-right: 10px; border-radius: 5px; font-size: 14pt;">
+                <label for="fixo">Tel. Fixo: </label>
+                <input type="text" name="Tel_fixo" id="fixo" style="margin: 5px; border-radius: 5px; font-size: 14pt">
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" size="55"
+                    style="margin-left: 47px; margin-top: 10px; border-radius: 5px; font-size: 14pt">
+            </div>
+            <div id="endereço">
+                <h3>ENDEREÇO</h3>
+                <label for="rua">Logradouro: </label>
+                <input type="text" name="rua" id="rua" size="35"
+                    style="margin: 5px; border-radius: 5px; font-size: 14pt">
+                <label for="cep">CEP: </label>
+                <input type="text" name="cep" id="cep" size="9"
+                    style="margin: 5px; border-radius: 5px; font-size: 14pt;">
+                <br>
+                <label for="bairro">Bairro: </label>
+                <input type="text" name="bairro" id="bairro" size="15"
+                    style="margin: 5px; border-radius: 5px; font-size: 14pt;">
+                <label for="cidade">Cidade: </label>
+                <input type="text" name="cidade" id="cidade" size="15"
+                    style="margin: 5px; border-radius: 5px; font-size: 14pt;">
+                <label for="estado">Estado: </label>
+                <input type="text" name="estado" id="estado" size="3"
+                    style="margin: 5px; border-radius: 5px; font-size: 14pt;">
+                <br><br>
+            </div>
+            <div id="final">
+                <input type="submit" class="button_active" value="CADASTRAR" size="5"
+                    style="margin-left: 529px; margin-bottom: 10px; border-radius: 5px; font-size: 14pt;">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
